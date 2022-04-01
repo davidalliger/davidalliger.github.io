@@ -10,6 +10,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/other.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
@@ -18,12 +19,14 @@
 			<div id="wrapper" class="divided">
 
 				<!-- One -->
-					<section class="banner style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
+					<section class="banner onload-image-fade-in onload-content-fade-right style2 fullscreen orient-center content-align-center image-position-center">
 						<div class="content">
-							<h1>Story</h1>
-							<p class="major">A (modular, highly tweakable) responsive one-page template designed by <a href="https://html5up.net">HTML5 UP</a> and released for free under the <a href="https://html5up.net/license">Creative Commons</a>.</p>
+							<div id="main-image-div"></div>
+							<h1>David Alliger</h1>
+							<p class="major" id="profession">Software Engineer</p>
+							<p class="major" id="skills">React | Redux | JavaScript | Express.js | Node.js | Python | Flask | Sequelize.js | Flask-SQLAlchemy | PostgreSQL | Docker | Git</p>
 							<ul class="actions stacked">
-								<li><a href="#first" class="button big wide smooth-scroll-middle">Get Started</a></li>
+								<li><a href="#first" class="button big wide smooth-scroll-middle">My Projects</a></li>
 							</ul>
 						</div>
 						<div class="image">
@@ -34,53 +37,54 @@
 				<!-- Two -->
 					<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in" id="first">
 						<div class="content">
-							<h2>Magna etiam feugiat</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id ante sed ex pharetra lacinia sit amet vel massa. Donec facilisis laoreet nulla eu bibendum. Donec ut ex risus. Fusce lorem lectus, pharetra pretium massa et, hendrerit vestibulum odio lorem ipsum dolor sit amet.</p>
+							<h2>Fluentsy</h2>
+							<p class="project-description">A full-stack social networking application for language learners around the world who want to find ideal conversation partners</p>
 							<ul class="actions stacked">
-								<li><a href="#" class="button">Learn More</a></li>
+								<li><a href="https://fluentsy.herokuapp.com" class="button" target="_blank">Learn More</a></li>
 							</ul>
 						</div>
-						<div class="image">
-							<img src="images/spotlight01.jpg" alt="" />
+						<div class="image project-image" id="project-image-1">
+							<!-- <img src="images/screenshots-4.PNG" alt="" /> -->
 						</div>
 					</section>
 
 				<!-- Three -->
 					<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
 						<div class="content">
-							<h2>Tempus adipiscing</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id ante sed ex pharetra lacinia sit amet vel massa. Donec facilisis laoreet nulla eu bibendum. Donec ut ex risus. Fusce lorem lectus, pharetra pretium massa et, hendrerit vestibulum odio lorem ipsum dolor sit amet.</p>
-							<ul class="actions stacked">
-								<li><a href="#" class="button">Learn More</a></li>
+							<h2>Petsagram</h2>
+							<p class="project-description">An Instagram clone for pet owners to share photos, follow other users, and like and comment on posts</p>
+							<ul id="main-button" class="actions stacked main-button">
+								<li><a href="https://petsagram-app.herokuapp.com" class="button">Learn More</a></li>
 							</ul>
 						</div>
-						<div class="image">
-							<img src="images/spotlight02.jpg" alt="" />
+						<div class="image project-image" id="project-image-2">
+							<!-- <img src="images/spotlight02.jpg" alt="" /> -->
 						</div>
 					</section>
 
 				<!-- Four -->
 					<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in">
 						<div class="content">
-							<h2>Pharetra etiam nulla</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id ante sed ex pharetra lacinia sit amet vel massa. Donec facilisis laoreet nulla eu bibendum. Donec ut ex risus. Fusce lorem lectus, pharetra pretium massa et, hendrerit vestibulum odio lorem ipsum dolor sit amet.</p>
+							<h2>ScareBnB</h2>
+							<p class="project-description">An AirBnB clone designed to allow spooky spirits to book haunted houses for their ghostly getaways</p>
 							<ul class="actions stacked">
-								<li><a href="#" class="button">Learn More</a></li>
+								<li><a href="https://scarebnb-react-app.herokuapp.com" class="button">Learn More</a></li>
 							</ul>
 						</div>
-						<div class="image">
-							<img src="images/spotlight03.jpg" alt="" />
+						<div class="image project-image" id="project-image-3">
+							<!-- <img src="images/spotlight03.jpg" alt="" /> -->
 						</div>
 					</section>
 
 				<!-- Five -->
 					<section class="wrapper style1 align-center">
 						<div class="inner">
-							<h2>Massa sed condimentum</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id ante sed ex pharetra lacinia sit amet vel massa. Donec facilisis laoreet nulla eu bibendum. Donec ut ex risus. Fusce lorem lectus, pharetra pretium massa et, hendrerit vestibulum odio lorem ipsum.</p>
+							<h2>About Me</h2>
+							<p>I became a software engineer because I wanted to think creatively and solve problems every day. I love to build full-stack web applications using my skills in React/Redux, Socket.IO, Express.js, JavaScript, Node.js, Sequelize.js, Python, Flask, Flask-SocketIO, Flask-SQLAlChemy, and PostgreSQL, to name just a few. I'm an eager developer who loves to learn new technologies so he can keep creating new and amazing things. If you'd like to work with me, send me a message at <span id="email-address"><a href="mailto:alligerdavidj@gmail.com" class="special-link">alligerdavidj@gmail.com</a></span>!</p>
+							<p></p>
 						</div>
 
-						<!-- Gallery -->
+						<!-- Gallery
 							<div class="gallery style2 medium lightbox onscroll-fade-in">
 								<article>
 									<a href="images/gallery/fulls/01.jpg" class="image">
@@ -228,10 +232,10 @@
 								</article>
 							</div>
 
-					</section>
+					</section> -->
 
 				<!-- Six -->
-					<section class="wrapper style1 align-center">
+					<!-- <section class="wrapper style1 align-center">
 						<div class="inner">
 							<h2>Ipsum sed consequat</h2>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id ante sed ex pharetra lacinia sit amet vel massa. Donec facilisis laoreet nulla eu bibendum. Donec ut ex risus. Fusce lorem lectus, pharetra pretium massa et, hendrerit vestibulum odio lorem ipsum.</p>
@@ -298,10 +302,10 @@
 								</section>
 							</div>
 						</div>
-					</section>
+					</section> -->
 
 				<!-- Seven -->
-					<section class="wrapper style1 align-center">
+					<!-- <section class="wrapper style1 align-center">
 						<div class="inner medium">
 							<h2>Get in touch</h2>
 							<form method="post" action="#">
@@ -325,19 +329,20 @@
 							</form>
 
 						</div>
-					</section>
+					</section> -->
 
 				<!-- Footer -->
 					<footer class="wrapper style1 align-center">
 						<div class="inner">
 							<ul class="icons">
-								<li><a href="#" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li>
-								<li><a href="#" class="icon brands style2 fa-facebook-f"><span class="label">Facebook</span></a></li>
-								<li><a href="#" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
-								<li><a href="#" class="icon brands style2 fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-								<li><a href="#" class="icon style2 fa-envelope"><span class="label">Email</span></a></li>
+								<!-- <li><a href="#" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li> -->
+								<!-- <li><a href="#" class="icon brands style2 fa-facebook-f"><span class="label">Facebook</span></a></li> -->
+								<!-- <li><a href="#" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li> -->
+								<li><a href="https://github.com/davidalliger" class="icon brands style2 fa-github"><span class="label">Github</span></a></li>
+								<li><a href="https://www.linkedin.com/in/david-alliger-a73351208/" class="icon brands style2 fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+								<li><a href="mailto:alligerdavidj@gmail.com" class="icon style2 fa-envelope"><span class="label">Email</span></a></li>
 							</ul>
-							<p>&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+							<p>&copy; David Alliger. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
 						</div>
 					</footer>
 

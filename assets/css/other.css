@@ -1,0 +1,53 @@
+#main-image-div {
+    background-image: url("https://user-images.githubusercontent.com/88861592/161337314-f2ad5052-45e0-4495-bbca-91ab7247caee.JPG");
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    margin: 0 auto 30px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#profession {
+    font-size: 28px;
+    /* font-weight: bold; */
+    margin-bottom: 18px;
+    font-style: italic;
+}
+
+#skills {
+    font-size: 20px;
+}
+
+
+.project-image {
+    box-shadow: inset 5px 5px 100px rgba(0,0,0,0.6);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#project-image-1 {
+    background-image: url("https://user-images.githubusercontent.com/88861592/161341459-57471fe2-4ec5-4603-b975-a827763bad2d.PNG");
+}
+
+#project-image-2 {
+    background-image: url("https://user-images.githubusercontent.com/88861592/161342440-d6771df7-0194-4f58-b6a8-daad57b26dca.png");
+}
+
+#project-image-3 {
+    background-image: url("https://user-images.githubusercontent.com/88861592/161342744-6ae7882f-69f5-46bb-9505-56e44e549452.PNG");
+}
+
+.project-description {
+    font-style: italic;
+}
+
+#email-address {
+    font-weight: bold;
+}
+
+.special-link {
+    text-decoration: none;
+}
