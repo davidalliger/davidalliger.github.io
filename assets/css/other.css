@@ -55,3 +55,19 @@
 .project-buttons-flex {
     display: flex;
 }
+
+#banner-screen {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,1);
+    z-index: 3000;
+}
+
+#banner-image {
+    /* z-index: -1; */
+}
+
+#site-banner {
+    background-color: rgba(0,0,0,0.6);
+    /* z-index: 1; */
+}
