@@ -71,3 +71,11 @@
     background-color: rgba(0,0,0,0.6);
     /* z-index: 1; */
 }
+
+.content-style-1 {
+    background-color: rgb(255, 223, 228);
+}
+
+.content-style-2 {
+    background-color: rgb(255, 233, 205);
+}
